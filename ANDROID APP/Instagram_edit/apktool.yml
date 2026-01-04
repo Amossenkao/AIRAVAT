@@ -1,0 +1,34 @@
+version: 2.9.3
+apkFileName: Instagram.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 14
+  targetSdkVersion: 28
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 1
+  versionName: 1.0.0-alpha
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  play-services-basement.properties: 0
+  firebase-storage.properties: 0
+  firebase-database.properties: 0
+  play-services-base.properties: 0
+  firebase-auth-interop.properties: 8
+  firebase-common.properties: 0
+  play-services-tasks.properties: 0
+  firebase-database-collection.properties: 8
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: 8
+doNotCompress:
+- resources.arsc
+- png
+- webp
+- jpg
